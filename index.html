@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mawadah Alahmadi | CV</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header id="profile-header">
+
+        <div class="top-bar">
+
+            <h2 class="logo">MY CV</h2>
+
+            <nav>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <!-- Task 1: Dark / Light Mode -->
+            <button id="theme-button" type="button">
+                Dark Mode
+            </button>
+
+        </div>
+
+        <div class="profile-photo">
+            <div class="yellow-circle"></div>
+            <img src="IMG_3063.png" alt="Profile Emoji">
+        </div>
+
+        <div class="hero-bottom">
+
+            <div class="name-area">
+                <h1>Mawadah<br>Alahmadi</h1>
+            </div>
+
+            <div class="job-area">
+                <p class="job-title">
+                    Information Technology<br>
+                    Student
+                </p>
+            </div>
+
+        </div>
+
+    </header>
+
+    <main class="cv-container">
+
+        <!-- About Me -->
+        <section id="about" class="cv-section">
+
+            <h2>About Me</h2>
+
+            <p>
+                Information Technology student passionate about creative
+                problem-solving and building innovative solutions using technology.
+            </p>
+
+            <!-- Task 2: Initially hidden content -->
+            <p id="more-about" class="hidden-about">
+                Interested in UI/UX design, software engineering,
+                and artificial intelligence.
+            </p>
+
+            <button id="about-button" type="button">
+                Show More
+            </button>
+
+        </section>
+
+        <!-- Education -->
+        <section id="education" class="cv-section">
+
+            <h2>Education</h2>
+
+            <article class="education-item">
+                <h3>King Abdulaziz University</h3>
+                <p>Bachelor of Information Technology</p>
+                <p>Expected Graduation: 2027</p>
+            </article>
+
+        </section>
+
+        <!-- Experience -->
+        <section id="experience" class="cv-section">
+
+            <h2>Experience</h2>
+
+            <div class="experience-grid">
+
+                <article class="experience-item">
+
+                    <div class="experience-heading">
+                        <h3>Activities Member – FCIT Sports Committee, KAU</h3>
+                        <span>2024</span>
+                    </div>
+
+                    <ul>
+                        <li>
+                            Supported the preparation and organization of college
+                            sports events and student activities.
+                        </li>
+                    </ul>
+
+                </article>
+
+                <article class="experience-item">
+
+                    <div class="experience-heading">
+                        <h3>Publicity Committee Member – IEEE Student Branch, KAU</h3>
+                        <span>2024</span>
+                    </div>
+
+                    <ul>
+                        <li>
+                            Designed digital materials for technical events and workshops.
+                        </li>
+
+                        <li>
+                            Promoted student activities through engaging visual content.
+                        </li>
+                    </ul>
+
+                </article>
+
+                <article class="experience-item">
+
+                    <div class="experience-heading">
+                        <h3>Website Committee Member – IEEE Student Branch, KAU</h3>
+                        <span>2023</span>
+                    </div>
+
+                    <ul>
+                        <li>
+                            Responsible for the UI/UX design and improvement of the
+                            student branch website interface and layout.
+                        </li>
+
+                        <li>
+                            Collaborated with the team to maintain and update website content.
+                        </li>
+                    </ul>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="cv-section">
+
+            <h2>Projects</h2>
+
+            <!-- Task 4: Filter buttons -->
+            <div class="project-filters">
+
+                <button id="all-button" type="button">
+                    All
+                </button>
+
+                <button id="web-button" type="button">
+                    Web
+                </button>
+
+                <button id="programming-button" type="button">
+                    Programming
+                </button>
+
+            </div>
+
+            <!-- Task 3: JavaScript will add project cards here -->
+            <div id="projects-grid" class="projects-grid"></div>
+
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="cv-section">
+
+            <h2>Skills</h2>
+
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Problem Solving</li>
+                <li>UI/UX Design</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>GitHub</li>
+                <li>Figma</li>
+                <li>Adobe</li>
+            </ul>
+
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="cv-section">
+
+            <h2>Contact</h2>
+
+            <p>
+                <strong>Email:</strong>
+
+                <a href="mailto:mawalahmadi@gmail.com">
+                    mawalahmadi@gmail.com
+                </a>
+            </p>
+
+        </section>
+
+    </main>
+
+    <!-- Task 5: Print button -->
+    <div class="print-area">
+
+        <button id="print-button" type="button">
+            Print / Save as PDF
+        </button>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Mawadah Alahmadi</p>
+    </footer>
+
+    <!-- Link JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
